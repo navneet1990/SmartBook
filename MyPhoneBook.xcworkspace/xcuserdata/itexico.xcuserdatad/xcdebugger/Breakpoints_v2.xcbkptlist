@@ -90,7 +90,7 @@
                   moduleName = "MyPhoneBook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/itexico/Documents/MyPhoneBook/MyPhoneBook/Modals/PBManager.swift"
-                  timestampString = "511315205.711507"
+                  timestampString = "511318278.344012"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -105,7 +105,7 @@
                   moduleName = "MyPhoneBook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/itexico/Documents/MyPhoneBook/MyPhoneBook/Modals/PBManager.swift"
-                  timestampString = "511315205.715194"
+                  timestampString = "511318278.345864"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -186,12 +186,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyPhoneBook/Views/TableCells/ContactCell.swift"
-            timestampString = "511316849.650505"
+            timestampString = "511318260.797524"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "textDidChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhoneBook/ViewController.swift"
+            timestampString = "511317782.456678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "addNewContactAction(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPhoneBook.ViewController.addNewContactAction (sender : Swift.AnyObject) -&gt; ()"
+                  moduleName = "MyPhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itexico/Documents/MyPhoneBook/MyPhoneBook/ViewController.swift"
+                  timestampString = "511318119.574826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPhoneBook.ViewController.addNewContactAction (sender : Swift.AnyObject) -&gt; ()"
+                  moduleName = "MyPhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/itexico/Documents/MyPhoneBook/MyPhoneBook/ViewController.swift"
+                  timestampString = "511318119.57638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "799">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhoneBook/Views/TableCells/ContactCell.swift"
+            timestampString = "511318260.797524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loadCellWithData(mainTitle:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

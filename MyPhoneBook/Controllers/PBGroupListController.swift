@@ -81,7 +81,7 @@ extension PBGroupListController{
         let alertController = UIAlertController(title: "New Group", message: "Please enter group name:", preferredStyle: .alert)
         
         let confirmAction = UIAlertAction(title: "Confirm", style: .default) { (_) in
-            if let field = alertController.textFields![0] as? UITextField, (field.text!.characters.count) > 0  {
+            if let field = alertController.textFields![0] as UITextField?, (field.text!.characters.count) > 0  {
                 
                 guard   self.arrayGroups.contains(where: ({$0.name == field.text})) == false
                     else{

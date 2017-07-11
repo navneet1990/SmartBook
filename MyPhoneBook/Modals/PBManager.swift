@@ -50,8 +50,8 @@ class PBManager: NSObject {
                 var allList: [ContactObj] = []
                 for myObj in items!{
                     
-                    if let contact = myObj as? CONTACTSENTITY,  pred == ENUMPREDGROUPRELATION.MEMBER.rawValue {
-                        if let grp = contact.group{//, grp.objectID.uriRepresentation().absoluteString == "" {
+                    if let contact = myObj as CONTACTSENTITY?,  pred == ENUMPREDGROUPRELATION.MEMBER.rawValue {
+                        if let grp = contact.group{
                             print("Name:\(grp.name!)")
                             continue
                         }

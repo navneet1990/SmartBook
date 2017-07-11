@@ -130,13 +130,8 @@ extension PBGroupDetailListController{
         
     }
     @IBAction func cancelBarBtnAction(_ sender: Any) {
-        //        if isFreshList {
-        //            performSegue(withIdentifier: ENUMSEGUEUNWIND.GROUPLIST.rawValue, sender: self)
-        //        }
-        //        else{
         dismiss(animated: true, completion: nil)
         
-        //        }
     }
     
     @IBAction func addNewContactAction(_ sender: Any) {

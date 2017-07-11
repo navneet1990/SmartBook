@@ -11,7 +11,7 @@ import UIKit
 extension UIImageView {
     public func imageFromData(data: NSData?) {
         DispatchQueue.global(qos: .userInitiated).async {
-            guard let newData = data as? Data , newData.count > 50
+            guard let newData = data as Data? , newData.count > 50
                 else{
                     
                  return

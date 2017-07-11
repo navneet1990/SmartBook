@@ -48,10 +48,13 @@ class ContactCell: UITableViewCell {
                         txtFieldDetail.isUserInteractionEnabled =  false
             txtFieldDetail.placeholder = ""
             txtFieldDetail.text = ""
-            if let obj =  (CoreDataManager.getById((vc?.tempObj?.id)!) as? CONTACTSENTITY)?.group {
-                     txtFieldDetail.text = obj.name!
+            if vc?.tempObj?.id != ""{
+            if let obj =  CoreDataManager.getById((vc?.tempObj?.id)!) as? CONTACTSENTITY {
+                if (obj.group != nil) && vc!.boolAddNew == false{
+                     txtFieldDetail.text = obj.group?.name!
+                }
             }
-           
+            }
         }
         
     }

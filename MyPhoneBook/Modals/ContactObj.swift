@@ -131,7 +131,7 @@ class ContactObj: NSObject, NSCopying {
             return id
         }
         else{
-            guard let value = key != CNContactPhoneNumbersKey ? contact.emailAddresses.last?.value as? String  : contact.phoneNumbers.last?.value.stringValue
+            guard let value = key != CNContactPhoneNumbersKey ? contact.emailAddresses.last?.value as String?  : contact.phoneNumbers.last?.value.stringValue
                 else {
                     return ""
             }
