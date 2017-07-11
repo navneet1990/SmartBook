@@ -2,7 +2,7 @@
 //  GROUPENTITY+CoreDataClass.swift
 //  MyPhoneBook
 //
-//  Created by iTexico on 3/14/17.
+//  Created by Navneet Singh (navneet.aug1990@gmail.com) on 3/14/17.
 //  Copyright © 2017 Navneet. All rights reserved.
 //
 

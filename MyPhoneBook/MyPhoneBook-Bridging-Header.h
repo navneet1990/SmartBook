@@ -2,7 +2,7 @@
 //  MyPhoneBook-Bridging-Header.h
 //  MyPhoneBook
 //
-//  Created by iTexico on 3/15/17.
+//  Created by Navneet Singh (navneet.aug1990@gmail.com) on 3/15/17.
 //  Copyright © 2017 Navneet. All rights reserved.
 //
 
